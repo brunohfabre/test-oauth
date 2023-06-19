@@ -3,6 +3,7 @@
     "name": "test-oauth",
     "slug": "test-oauth",
     "version": "1.0.0",
+    "scheme": "oauthtest", 
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,6 +22,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "br.com.coddee.testoauth",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "271b0468-dc7a-4dd5-9916-b26979474742"
+      }
     }
   }
 }
